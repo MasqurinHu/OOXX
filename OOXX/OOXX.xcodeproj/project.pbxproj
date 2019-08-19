@@ -89,8 +89,6 @@
 		451D042F1EEEBD6200DC23D5 /* OOXX */ = {
 			isa = PBXGroup;
 			children = (
-				4534DE901F1A77CD0076C08A /* Localizable.strings */,
-				4534DE8B1F1A77CD0076C08A /* InfoPlist.strings */,
 				451D04331EEEBD6200DC23D5 /* AppDelegate.h */,
 				451D04341EEEBD6200DC23D5 /* AppDelegate.m */,
 				451D04361EEEBD6200DC23D5 /* ViewController.h */,
@@ -102,9 +100,7 @@
 				451D04391EEEBD6200DC23D5 /* Main.storyboard */,
 				4549EF9D1F173C3000508BBB /* View */,
 				4549EF9E1F173C9000508BBB /* Model */,
-				451D043C1EEEBD6200DC23D5 /* Assets.xcassets */,
-				451D043E1EEEBD6200DC23D5 /* LaunchScreen.storyboard */,
-				451D04411EEEBD6200DC23D5 /* Info.plist */,
+				45683C5B230B152F000BBEF2 /* Support */,
 				451D04301EEEBD6200DC23D5 /* Supporting Files */,
 			);
 			path = OOXX;
@@ -113,6 +109,11 @@
 		451D04301EEEBD6200DC23D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				451D043C1EEEBD6200DC23D5 /* Assets.xcassets */,
+				4534DE901F1A77CD0076C08A /* Localizable.strings */,
+				451D043E1EEEBD6200DC23D5 /* LaunchScreen.storyboard */,
+				451D04411EEEBD6200DC23D5 /* Info.plist */,
+				4534DE8B1F1A77CD0076C08A /* InfoPlist.strings */,
 				451D04311EEEBD6200DC23D5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,6 +152,13 @@
 				4534DE911F1A86CB0076C08A /* Define.h */,
 			);
 			name = ViewItem;
+			sourceTree = "<group>";
+		};
+		45683C5B230B152F000BBEF2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -67,11 +67,14 @@
     CGFloat vCenter = self.view.frame.size.height/2;
     CGFloat hCenter = self.view.frame.size.width/2;
     boardPoint = CGPointMake(hCenter, vCenter);
+    __weak typeof(self) weakSelf = self;
+    
     [UIView animateWithDuration:.3f animations:^{
         //tag = 50 is masterView
+        __strong typeof(weakSelf) strongSelf = weakSelf;
         for(UIView *tmp in self.view.subviews) {
             if ([tmp tag] == 50) {
-                tmp.center = boardPoint;
+                tmp.center = strongSelf -> boardPoint;
             }else if ([tmp tag]==51){
                 tmp.frame = self.view.frame;
             }
@@ -407,8 +410,11 @@
     finis.layer.cornerRadius = finis.frame.size.height*.1;
     finis.layer.borderWidth = finis.frame.size.height*.03;
     [self.view addSubview:finis];
+    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:1.2f animations:^{
-        finis.center = boardPoint;
+        
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        strongSelf -> finis.center = strongSelf -> boardPoint;
     }];
     CGFloat mw = finis.frame.size.width;
     CGFloat mh = finis.frame.size.height;
