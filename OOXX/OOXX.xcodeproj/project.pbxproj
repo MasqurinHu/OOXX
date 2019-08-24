@@ -23,9 +23,12 @@
 		4549EFA31F1796C200508BBB /* OOXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549EFA21F1796C200508BBB /* OOXXViewController.m */; };
 		4549EFA61F17974600508BBB /* Gmae.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549EFA51F17974600508BBB /* Gmae.m */; };
 		4549EFA91F17AC1E00508BBB /* Kanban.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549EFA81F17AC1E00508BBB /* Kanban.m */; };
+		45683C5D230C6DC1000BBEF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45683C5C230C6DC1000BBEF2 /* GoogleService-Info.plist */; };
+		469ABF67A0A09CCA076E7E35 /* libPods-OOXX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215A50C3E0ECAA7F8BAE355C /* Pods-OOXX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOXX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OOXX/Pods-OOXX.debug.xcconfig"; sourceTree = "<group>"; };
 		4502930A1EFADE4B0017C119 /* Xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xx.h; sourceTree = "<group>"; };
 		4502930B1EFADE4B0017C119 /* Xx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xx.m; sourceTree = "<group>"; };
 		4502930D1EFB3C1C0017C119 /* Oo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oo.h; sourceTree = "<group>"; };
@@ -57,24 +60,38 @@
 		4549EFA51F17974600508BBB /* Gmae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gmae.m; sourceTree = "<group>"; };
 		4549EFA71F17AC1E00508BBB /* Kanban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kanban.h; sourceTree = "<group>"; };
 		4549EFA81F17AC1E00508BBB /* Kanban.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kanban.m; sourceTree = "<group>"; };
+		45683C5C230C6DC1000BBEF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CF40E49BDB25237CAB1695F /* Pods-OOXX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOXX.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOXX/Pods-OOXX.release.xcconfig"; sourceTree = "<group>"; };
+		DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOXX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		451D042A1EEEBD6200DC23D5 /* Frameworks */ = {
+		0B0466AC2B858178D935AE95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469ABF67A0A09CCA076E7E35 /* libPods-OOXX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1909D041FBBE47F0D63ECF29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		451D04241EEEBD6200DC23D5 = {
 			isa = PBXGroup;
 			children = (
 				451D042F1EEEBD6200DC23D5 /* OOXX */,
 				451D042E1EEEBD6200DC23D5 /* Products */,
+				52C5A84A8E72F17A7070035C /* Pods */,
+				1909D041FBBE47F0D63ECF29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +114,7 @@
 				4549EFA21F1796C200508BBB /* OOXXViewController.m */,
 				4549EFA41F17974600508BBB /* Gmae.h */,
 				4549EFA51F17974600508BBB /* Gmae.m */,
+				45683C5C230C6DC1000BBEF2 /* GoogleService-Info.plist */,
 				451D04391EEEBD6200DC23D5 /* Main.storyboard */,
 				4549EF9D1F173C3000508BBB /* View */,
 				4549EF9E1F173C9000508BBB /* Model */,
@@ -161,6 +179,15 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
+		52C5A84A8E72F17A7070035C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215A50C3E0ECAA7F8BAE355C /* Pods-OOXX.debug.xcconfig */,
+				7CF40E49BDB25237CAB1695F /* Pods-OOXX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +195,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 451D04441EEEBD6200DC23D5 /* Build configuration list for PBXNativeTarget "OOXX" */;
 			buildPhases = (
+				6FC656CE460B86592C513D9A /* [CP] Check Pods Manifest.lock */,
 				451D04291EEEBD6200DC23D5 /* Sources */,
-				451D042A1EEEBD6200DC23D5 /* Frameworks */,
 				451D042B1EEEBD6200DC23D5 /* Resources */,
+				0B0466AC2B858178D935AE95 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,10 +254,32 @@
 				4534DE891F1A77CD0076C08A /* InfoPlist.strings in Resources */,
 				451D043D1EEEBD6200DC23D5 /* Assets.xcassets in Resources */,
 				451D043B1EEEBD6200DC23D5 /* Main.storyboard in Resources */,
+				45683C5D230C6DC1000BBEF2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FC656CE460B86592C513D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OOXX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		451D04291EEEBD6200DC23D5 /* Sources */ = {
@@ -402,11 +452,14 @@
 		};
 		451D04451EEEBD6200DC23D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215A50C3E0ECAA7F8BAE355C /* Pods-OOXX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = J46ZPGV247;
 				INFOPLIST_FILE = OOXX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Masqurins.OOXX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,11 +470,13 @@
 		};
 		451D04461EEEBD6200DC23D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF40E49BDB25237CAB1695F /* Pods-OOXX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J46ZPGV247;
 				INFOPLIST_FILE = OOXX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Masqurins.OOXX;
 				PRODUCT_NAME = "$(TARGET_NAME)";

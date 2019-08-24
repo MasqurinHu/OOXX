@@ -13,6 +13,7 @@
 #import "Board.h"
 #import "UIImageOX.h"
 #import "Define.h"
+#import <GoogleMobileAds/GoogleMobileAds.h>
 
 
 @implementation ViewController
@@ -33,11 +34,36 @@
     Ai *ai;
     CGFloat boardSize;
     CGPoint boardPoint;
+#define AD_ID @"ca-app-pub-9464558371025216/3511144883"
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setAdBanner];
     [self preparation];
+}
+
+-(void)setAdBanner {
+    
+    GADBannerView * banner = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
+    [banner setRootViewController:self];
+    [banner setAdUnitID:AD_ID];
+    #ifndef NDEBUG
+    GADRequest *request = [GADRequest request];
+    request.testDevices = @[ @"2077ef9a63d2b398840261c8221a0c9b" ];
+    #endif
+
+    [[self view] addSubview:banner];
+    [banner setTranslatesAutoresizingMaskIntoConstraints:false];
+    if (@available(iOS 11.0, *)) {
+        [[[banner bottomAnchor] constraintEqualToAnchor: [[[self view] safeAreaLayoutGuide] bottomAnchor]] setActive:true];
+    } else {
+        [[[banner bottomAnchor] constraintEqualToAnchor: [[self view] bottomAnchor]] setActive:true];
+    }
+    [[[banner centerXAnchor] constraintEqualToAnchor:[[self view] centerXAnchor]] setActive:true];
+    
+    [banner loadRequest:[GADRequest request]];
 }
 
 -(void)preparation{
@@ -140,6 +166,7 @@
         [button addTarget:self action:@selector(chModeBt:) forControlEvents:UIControlEventTouchUpInside];
         [chMode addSubview:button];
     }
+    [self setAdBanner];
 }
 
 
