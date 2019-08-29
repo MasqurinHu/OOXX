@@ -34,7 +34,7 @@
     Ai *ai;
     CGFloat boardSize;
     CGPoint boardPoint;
-#define AD_ID @"ca-app-pub-9464558371025216/3511144883"
+    #define AD_ID @"ca-app-pub-9464558371025216/3511144883"
 }
 
 - (void)viewDidLoad {

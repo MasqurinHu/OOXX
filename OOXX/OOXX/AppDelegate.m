@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <GoogleMobileAds/GoogleMobileAds.h>
-@import Firebase;
+#import "AppManager.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[GADMobileAds sharedInstance] startWithCompletionHandler:nil];
-    [FIRApp configure];
+    [[AppManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
 }

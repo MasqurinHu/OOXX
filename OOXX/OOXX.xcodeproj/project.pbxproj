@@ -24,6 +24,12 @@
 		4549EFA61F17974600508BBB /* Gmae.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549EFA51F17974600508BBB /* Gmae.m */; };
 		4549EFA91F17AC1E00508BBB /* Kanban.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549EFA81F17AC1E00508BBB /* Kanban.m */; };
 		45683C5D230C6DC1000BBEF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45683C5C230C6DC1000BBEF2 /* GoogleService-Info.plist */; };
+		457E82BA2316EB0900E59663 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82B92316EB0900E59663 /* AppManager.m */; };
+		457E82C22316EF9B00E59663 /* AppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82C12316EF9B00E59663 /* AppCoordinator.m */; };
+		457E82C52316F21C00E59663 /* AppManager+AppStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82C42316F21C00E59663 /* AppManager+AppStart.m */; };
+		457E82C92316F28200E59663 /* AppManager+Firebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82C82316F28200E59663 /* AppManager+Firebase.m */; };
+		457E82D32316F98800E59663 /* KanbanVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82D22316F98800E59663 /* KanbanVc.m */; };
+		457E82D82316FDFA00E59663 /* KanbanVcViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82D72316FDFA00E59663 /* KanbanVcViewModel.m */; };
 		469ABF67A0A09CCA076E7E35 /* libPods-OOXX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +67,23 @@
 		4549EFA71F17AC1E00508BBB /* Kanban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kanban.h; sourceTree = "<group>"; };
 		4549EFA81F17AC1E00508BBB /* Kanban.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kanban.m; sourceTree = "<group>"; };
 		45683C5C230C6DC1000BBEF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		457E82B82316EB0900E59663 /* AppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		457E82B92316EB0900E59663 /* AppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		457E82BF2316EF0A00E59663 /* AppCoordinatorSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinatorSpec.h; sourceTree = "<group>"; };
+		457E82C02316EF9B00E59663 /* AppCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinator.h; sourceTree = "<group>"; };
+		457E82C12316EF9B00E59663 /* AppCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoordinator.m; sourceTree = "<group>"; };
+		457E82C32316F21C00E59663 /* AppManager+AppStart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppManager+AppStart.h"; sourceTree = "<group>"; };
+		457E82C42316F21C00E59663 /* AppManager+AppStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppManager+AppStart.m"; sourceTree = "<group>"; };
+		457E82C72316F28200E59663 /* AppManager+Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppManager+Firebase.h"; sourceTree = "<group>"; };
+		457E82C82316F28200E59663 /* AppManager+Firebase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppManager+Firebase.m"; sourceTree = "<group>"; };
+		457E82CE2316F61E00E59663 /* AppResponderSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppResponderSpec.h; sourceTree = "<group>"; };
+		457E82CF2316F6EB00E59663 /* AppViewModelSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppViewModelSpec.h; sourceTree = "<group>"; };
+		457E82D02316F77D00E59663 /* AppDataSourceSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDataSourceSpec.h; sourceTree = "<group>"; };
+		457E82D12316F98800E59663 /* KanbanVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanbanVc.h; sourceTree = "<group>"; };
+		457E82D22316F98800E59663 /* KanbanVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanbanVc.m; sourceTree = "<group>"; };
+		457E82D42316FBC300E59663 /* KanbanVcViewModelSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanbanVcViewModelSpec.h; sourceTree = "<group>"; };
+		457E82D62316FDFA00E59663 /* KanbanVcViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanbanVcViewModel.h; sourceTree = "<group>"; };
+		457E82D72316FDFA00E59663 /* KanbanVcViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanbanVcViewModel.m; sourceTree = "<group>"; };
 		7CF40E49BDB25237CAB1695F /* Pods-OOXX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOXX.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOXX/Pods-OOXX.release.xcconfig"; sourceTree = "<group>"; };
 		DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOXX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,6 +131,10 @@
 			children = (
 				451D04331EEEBD6200DC23D5 /* AppDelegate.h */,
 				451D04341EEEBD6200DC23D5 /* AppDelegate.m */,
+				457E82CC2316F5EA00E59663 /* Spec */,
+				457E82CA2316F58D00E59663 /* ViewComponent */,
+				457E82BB2316EE3400E59663 /* Coordinator */,
+				457E82B42316EA5E00E59663 /* Manager */,
 				451D04361EEEBD6200DC23D5 /* ViewController.h */,
 				451D04371EEEBD6200DC23D5 /* ViewController.m */,
 				4549EFA11F1796C200508BBB /* OOXXViewController.h */,
@@ -177,6 +204,83 @@
 			children = (
 			);
 			name = Support;
+			sourceTree = "<group>";
+		};
+		457E82B42316EA5E00E59663 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				457E82C62316F25300E59663 /* AppManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		457E82BB2316EE3400E59663 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				457E82C02316EF9B00E59663 /* AppCoordinator.h */,
+				457E82C12316EF9B00E59663 /* AppCoordinator.m */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		457E82C62316F25300E59663 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				457E82B82316EB0900E59663 /* AppManager.h */,
+				457E82B92316EB0900E59663 /* AppManager.m */,
+				457E82C72316F28200E59663 /* AppManager+Firebase.h */,
+				457E82C82316F28200E59663 /* AppManager+Firebase.m */,
+				457E82C32316F21C00E59663 /* AppManager+AppStart.h */,
+				457E82C42316F21C00E59663 /* AppManager+AppStart.m */,
+				457E82D52316FDC200E59663 /* KanbanVcViewModel */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		457E82CA2316F58D00E59663 /* ViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				457E82CB2316F5AE00E59663 /* Vc */,
+			);
+			path = ViewComponent;
+			sourceTree = "<group>";
+		};
+		457E82CB2316F5AE00E59663 /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				457E82D12316F98800E59663 /* KanbanVc.h */,
+				457E82D22316F98800E59663 /* KanbanVc.m */,
+				457E82D42316FBC300E59663 /* KanbanVcViewModelSpec.h */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		457E82CC2316F5EA00E59663 /* Spec */ = {
+			isa = PBXGroup;
+			children = (
+				457E82CD2316F5F500E59663 /* BaseSpec */,
+			);
+			path = Spec;
+			sourceTree = "<group>";
+		};
+		457E82CD2316F5F500E59663 /* BaseSpec */ = {
+			isa = PBXGroup;
+			children = (
+				457E82BF2316EF0A00E59663 /* AppCoordinatorSpec.h */,
+				457E82CE2316F61E00E59663 /* AppResponderSpec.h */,
+				457E82CF2316F6EB00E59663 /* AppViewModelSpec.h */,
+				457E82D02316F77D00E59663 /* AppDataSourceSpec.h */,
+			);
+			path = BaseSpec;
+			sourceTree = "<group>";
+		};
+		457E82D52316FDC200E59663 /* KanbanVcViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				457E82D62316FDFA00E59663 /* KanbanVcViewModel.h */,
+				457E82D72316FDFA00E59663 /* KanbanVcViewModel.m */,
+			);
+			path = KanbanVcViewModel;
 			sourceTree = "<group>";
 		};
 		52C5A84A8E72F17A7070035C /* Pods */ = {
@@ -292,11 +396,17 @@
 				450293151EFBA4D10017C119 /* UIImageOX.m in Sources */,
 				451D04381EEEBD6200DC23D5 /* ViewController.m in Sources */,
 				4502930F1EFB3C1C0017C119 /* Oo.m in Sources */,
+				457E82C92316F28200E59663 /* AppManager+Firebase.m in Sources */,
+				457E82C52316F21C00E59663 /* AppManager+AppStart.m in Sources */,
 				4549EFA61F17974600508BBB /* Gmae.m in Sources */,
+				457E82D32316F98800E59663 /* KanbanVc.m in Sources */,
 				4502930C1EFADE4B0017C119 /* Xx.m in Sources */,
+				457E82D82316FDFA00E59663 /* KanbanVcViewModel.m in Sources */,
+				457E82C22316EF9B00E59663 /* AppCoordinator.m in Sources */,
 				451D04351EEEBD6200DC23D5 /* AppDelegate.m in Sources */,
 				451D04321EEEBD6200DC23D5 /* main.m in Sources */,
 				4549EFA31F1796C200508BBB /* OOXXViewController.m in Sources */,
+				457E82BA2316EB0900E59663 /* AppManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
