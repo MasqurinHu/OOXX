@@ -30,6 +30,7 @@
 		457E82C92316F28200E59663 /* AppManager+Firebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82C82316F28200E59663 /* AppManager+Firebase.m */; };
 		457E82D32316F98800E59663 /* KanbanVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82D22316F98800E59663 /* KanbanVc.m */; };
 		457E82D82316FDFA00E59663 /* KanbanVcViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82D72316FDFA00E59663 /* KanbanVcViewModel.m */; };
+		457E82DC2318465A00E59663 /* AppString.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E82DB2318465A00E59663 /* AppString.m */; };
 		469ABF67A0A09CCA076E7E35 /* libPods-OOXX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,8 @@
 		457E82D42316FBC300E59663 /* KanbanVcViewModelSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanbanVcViewModelSpec.h; sourceTree = "<group>"; };
 		457E82D62316FDFA00E59663 /* KanbanVcViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanbanVcViewModel.h; sourceTree = "<group>"; };
 		457E82D72316FDFA00E59663 /* KanbanVcViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanbanVcViewModel.m; sourceTree = "<group>"; };
+		457E82DA2318465A00E59663 /* AppString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppString.h; sourceTree = "<group>"; };
+		457E82DB2318465A00E59663 /* AppString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppString.m; sourceTree = "<group>"; };
 		7CF40E49BDB25237CAB1695F /* Pods-OOXX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOXX.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOXX/Pods-OOXX.release.xcconfig"; sourceTree = "<group>"; };
 		DD930D7010DB71ADFC2B7E97 /* libPods-OOXX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOXX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,6 +134,7 @@
 			children = (
 				451D04331EEEBD6200DC23D5 /* AppDelegate.h */,
 				451D04341EEEBD6200DC23D5 /* AppDelegate.m */,
+				457E82D92318463500E59663 /* New Group */,
 				457E82CC2316F5EA00E59663 /* Spec */,
 				457E82CA2316F58D00E59663 /* ViewComponent */,
 				457E82BB2316EE3400E59663 /* Coordinator */,
@@ -283,6 +287,15 @@
 			path = KanbanVcViewModel;
 			sourceTree = "<group>";
 		};
+		457E82D92318463500E59663 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				457E82DA2318465A00E59663 /* AppString.h */,
+				457E82DB2318465A00E59663 /* AppString.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		52C5A84A8E72F17A7070035C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +409,7 @@
 				450293151EFBA4D10017C119 /* UIImageOX.m in Sources */,
 				451D04381EEEBD6200DC23D5 /* ViewController.m in Sources */,
 				4502930F1EFB3C1C0017C119 /* Oo.m in Sources */,
+				457E82DC2318465A00E59663 /* AppString.m in Sources */,
 				457E82C92316F28200E59663 /* AppManager+Firebase.m in Sources */,
 				457E82C52316F21C00E59663 /* AppManager+AppStart.m in Sources */,
 				4549EFA61F17974600508BBB /* Gmae.m in Sources */,

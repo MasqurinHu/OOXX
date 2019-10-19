@@ -12,10 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol AppCoordinatorSpec <NSObject>
 
-@property (nonatomic, retain) id<AppCoordinatorSpec> _Nullable lastCoordinator;
+@property (nonatomic, weak) id<AppCoordinatorSpec> _Nullable lastCoordinator;
 
 -(void) start;
--(void) end;
 
 @end
 

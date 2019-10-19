@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol AppResponderSpec <UIResponderStandardEditActions>
 
-@property (nonatomic, retain) id<AppViewModelSpec> _Nullable viewModel;
+@property (nonatomic, strong) id<AppViewModelSpec> _Nullable viewModel;
 
 @end
 

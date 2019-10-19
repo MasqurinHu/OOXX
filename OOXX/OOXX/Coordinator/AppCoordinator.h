@@ -14,7 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface AppCoordinator : NSObject <AppCoordinatorSpec>
 
 - (void)start;
-- (void)end;
 
 @end
 

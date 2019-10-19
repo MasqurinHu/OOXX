@@ -12,7 +12,7 @@
 
 @implementation AppManager {
     
-    AppCoordinator *appCoordinator;
+    AppCoordinator * appCoordinator;
     
 }
 
